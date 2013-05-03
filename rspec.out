@@ -1,0 +1,3409 @@
+[INFO] git submodule sync
+[INFO] git submodule update --init --recursive
+[INFO] git fetch --prune upstream
+[WARN] skipping rebase due to uncommitted changes
+[INFO] Using puppet 2.7.21
+[PASSED]  pc-at02 (compile time: 17.702761 seconds)
+
+----------------------------------------
+Compiled 1 catalogs in 17.7028 seconds (avg: 17.7028 seconds)
+
+================ /home/chunkwo/puppet/Rakefile =================
+/opt/puppet/bin/ruby -W0 -S rspec ./spec/common/common_spec.rb ./spec/files/gitmodules_spec.rb ./spec/files/site_spec.rb ./spec/hieradata/gts_spec.rb --pattern spec/*/**/*_spec.rb --require ./spec/spec_helper.rb --color
+
+puppet
+  should have upstream remote
+  should be up-to-date with upstream
+  file checks
+    docs/governance/github-account.md
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    docs/governance/welcome-to-github.md
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    docs/guides/commit_messages.md
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    files/udev-rules/75-iscsi.rules
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    helpful_files/rspecify.sh
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    helpful_files/tester.sh
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    helpful_files/yaml-lint.rb
+      has newline terminators
+      is valid ruby
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    hieradata/README.md
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    hieradata/common.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/RedHat.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/dr/dr.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/dr/fake.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/dr/ise_mock_function/sda.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_environment/i/d.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_environment/p.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_environment/p/c.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_environment/p/d.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_environment/t.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_function/at.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_function/efi.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_function/fake.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_function/gts.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_function/ifi.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_function/lss.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_function/mat1.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_function/mdd.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_function/me.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_function/mgw.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_function/oat.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_function/ofi.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_function/pat2.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_function/pp.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_function/sc.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_function/spf.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_function/ssm.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_function/ufm.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_function/ume.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_host_realm/INF.ISE.COM.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_host_realm/OFFICE.ISEOPTIONS.COM.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_host_realm/PROD.ISE.COM.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_host_realm/ROOT.LOCAL.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_host_realm/TEST.ISE.COM.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/id-ufm01a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-at01.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-at02.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-at03.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-at04.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-at05.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-at06.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-at07.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-at08.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-at09.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-at10.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-at11.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-at12.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-at13.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-at14.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-at15.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-at16.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-cpm01.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-cpm02.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-cpm03.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-cpm04.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-cpm05.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-cpm06.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd01a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd01b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd02a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd02b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd03a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd03b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd04a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd04b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd05a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd05b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd06a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd06b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd07a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd07b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd08a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd08b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd09a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd09b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd10a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd10b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd11a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd11b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd12a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd12b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd13a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd13b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd14a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd14b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd15a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-dd15b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-ifi01.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-ifi02.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-ifi03.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-ifi04.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-ifi05.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-ifi06.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me01a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me01b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me02a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me02b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me03a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me03b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me04a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me04b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me05a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me05b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me06a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me06b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me07a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me07b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me08a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me08b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me09a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me09b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me10a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me10b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me11a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me11b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me12a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me12b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me13a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me13b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me14a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me14b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me15a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-me15b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw01.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw02.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw03.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw04.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw05.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw06.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw07.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw08.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw09.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw10.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw11.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw12.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw13.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw14.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw15.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw151.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw152.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw153.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw154.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw155.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw156.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw16.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw17.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw18.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw19.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw20.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw200.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw201.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw21.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw22.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw23.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw24.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw25.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw251.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw252.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw253.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw254.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw255.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw256.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw257.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw258.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw26.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw27.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw28.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw29.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw30.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw31.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw32.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw33.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw34.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw35.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw36.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw37.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw38.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw39.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw60.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-mgw61.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-ofi01.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-ofi02.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-ofi03.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-ofi04.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-ofi05.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-ofi06.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-ofi07.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-ofi08.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-ofi09.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-ofi10.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-ofi11.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp01a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp01b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp02a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp02b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp03a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp03b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp04a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp04b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp05a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp05b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp06a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp06b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp07a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp07b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp08a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp08b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp09a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp09b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp10a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp10b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp11a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp11b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp12a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp12b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp13a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp13b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp14a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp14b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp15a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-pp15b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-sc01.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-sc02.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-sc03.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-sc04.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pc-yaml02.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pd-cdb01a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pd-cdb01b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pd-fake01.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pd-fake01a.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pd-fake01b.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pd-fake02.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/pd-fake03.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/td-lss01.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/td-lss02.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/td-lss05.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/td-pat01.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_hostname/td-pat201.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_site/c.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_site/d.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_site/e.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/ise_mock_site/f.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/mat1/fake.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/mat1/ise_mock_function/mat1.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/mat2/fake.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/mat2/ise_mock_function/mat2.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/oat/fake.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/oat/oat.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/pat/fake.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/pat/ise_mock_function/pat.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/pat2/fake.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/pat2/ise_mock_function/pat2.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/prod/fake.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/prod/ise_mock_hostname/id-dbs01.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/prod/prod.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/qa/fake.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/qa/ise_mock_function/qa.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/qa/ise_mock_hostname/td-qa01.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/qa/ise_mock_hostname/td-qa03.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/qa/ise_mock_hostname/td-qa05.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/qa/ise_mock_hostname/td-qa06.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/qa/ise_mock_hostname/td-qa08.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/common/windows.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/3.1.80.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/3.1.81.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/3.1.85.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/3.1.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/4.0.117.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/4.0.130.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/4.0.40.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/4.0.50.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/4.0.60.uno.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/4.0.70.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/4.0.80.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/4.0.90.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/4.0.93.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/4.0.94.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/4.0.95.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/4.0.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/5.0.40.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/5.0.50.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/5.0.61.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/5.0.65.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/5.0.66.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/5.0.80.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/5.0.85.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/5.0.87.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/5.0.88.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/5.0.90.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/5.0.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/5.1.0.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/5.1.10.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/5.1.20.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/5.1.30.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/5.1.40.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/5.1.45.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/5.1.50.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/5.1.51.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/5.1.52.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/5.1.55.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/5.1.60.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/5.1.61.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/5.1.62.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/6.0.30.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/6.0.50.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/6.0.55.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/5/present.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/5.0.40.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/5.0.50.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/5.0.61.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/5.0.65.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/5.0.80.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/5.0.85.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/5.0.87.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/5.0.88.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/5.0.90.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/5.1.0.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/5.1.10.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/5.1.20.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/5.1.30.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/5.1.40.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/5.1.45.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/5.1.50.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/5.1.51.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/5.1.52.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/5.1.55.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/5.1.60.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/5.1.61.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/5.1.62.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/6.0.0.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/6.0.10.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/6.0.20.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/6.0.30.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/6.0.40.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/6.0.50.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/6.0.55.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/present.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/6/rhel6.3-test.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/gts/RedHat.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/README.md
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    hieradata/iseapps/dr/fake.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/feedcap.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/iors_dca.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/iors_gct.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/iors_irc.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/iors_ldc.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/iors_moe.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/iors_ora.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/lvc.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/marketwatch.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/mpt_ams.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/mpt_as.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/mpt_client.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/obe_client.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/obe_gts.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/obe_ofids.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/occtr.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/oqtr.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/precise_amr.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/precise_bsi.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/precise_ports.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/precise_tew.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/qv_fe.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/rdcx_refdatamanager.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/rdcx_refdataservice.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/rdfe.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/rtp_atlr.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/rtp_etslr.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/rtp_olr.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/rtp_pim.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/rtp_stm.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/dr/sor.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/oat/feedcap.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/oat/lvc.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/oat/marketwatch.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/oat/obe_client.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/oat/obe_gts.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/oat/precise_amr.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/oat/precise_bsi.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/oat/precise_ports.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/oat/precise_tew.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/oat/qv_fe.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/oat/rtp_etslr.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/oat/rtp_olr.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/oat/rtp_pim.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/oat/sor.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/feedcap.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/iors_dca.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/iors_gct.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/iors_irc.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/iors_ldc.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/iors_moe.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/iors_ora.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/lvc.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/marketwatch.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/mpt_ams.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/mpt_as.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/mpt_client.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/obe_client.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/obe_gts.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/obe_ofids.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/occtr.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/oqtr.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/precise_amr.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/precise_bsi.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/precise_ports.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/precise_tew.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/qv_fe.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/rdcx_refdatamanager.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/rdcx_refdataservice.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/rdfe.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/rtp_atlr.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/rtp_etslr.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/rtp_olr.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/rtp_pim.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/rtp_stm.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/iseapps/prod/sor.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/rhel/5.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/rhel/6.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/rhel/6/ib/mellanox.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    hieradata/rhel/6/ib/redhat.yaml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    manifests/CONTRIBUTING.md
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    manifests/Gemfile.lock
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    manifests/INSTALL.md
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    manifests/README.md
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    manifests/RESOURCES.md
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    manifests/TESTING.md
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    manifests/iseoptions-puppet.gemspec
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    spec/common/common_spec.rb
+      has newline terminators
+      is valid ruby
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    spec/files/gitmodules_spec.rb
+      has newline terminators
+      is valid ruby
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    spec/files/site_spec.rb
+      has newline terminators
+      is valid ruby
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    spec/hieradata/gts_spec.rb
+      has newline terminators
+      is valid ruby
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    spec/spec_helper.rb
+      has newline terminators
+      is valid ruby
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    vagrant/README.md
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    vagrant/config/nodes.yml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    vagrant/config/provisioner_puppet.yml
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      has YAML magic
+      loads yaml
+      is well-formed yaml
+    vagrant/definitions/ise-centos6.3-x86_64/base.sh
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    vagrant/definitions/ise-centos6.3-x86_64/chef.sh
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    vagrant/definitions/ise-centos6.3-x86_64/cleanup.sh
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    vagrant/definitions/ise-centos6.3-x86_64/definition.rb
+      has newline terminators
+      is valid ruby
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    vagrant/definitions/ise-centos6.3-x86_64/ks.cfg
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    vagrant/definitions/ise-centos6.3-x86_64/puppet.sh
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    vagrant/definitions/ise-centos6.3-x86_64/ruby.sh
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    vagrant/definitions/ise-centos6.3-x86_64/vagrant.sh
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    vagrant/definitions/ise-centos6.3-x86_64/virtualbox.sh
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    vagrant/definitions/ise-centos6.3-x86_64/zerodisk.sh
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    vagrant/definitions/ise-win08r2-ss-amd64/Autounattend.xml
+      has CRLF terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+      is well-formed xml
+    vagrant/definitions/ise-win08r2-ss-amd64/README.md
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    vagrant/definitions/ise-win08r2-ss-amd64/definition.rb
+      has newline terminators
+      is valid ruby
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    vagrant/definitions/ise-win08r2-ss-amd64/install-cygwin-sshd.bat
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    vagrant/definitions/ise-win08r2-ss-amd64/install-winrm.bat
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    vagrant/definitions/ise-win08r2-ss-amd64/oracle-cert.pem
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    vagrant/definitions/ise-win08r2-ss-amd64/postinstall.sh
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    vagrant/manifests/td-lss11.pp
+      has newline terminators
+      conforms to puppet style guide
+      puppet-lint check variable_scope
+      puppet-lint check case_without_default
+      puppet-lint check file_mode
+      puppet-lint check unquoted_file_mode
+      puppet-lint check right_to_left_relationship
+      puppet-lint check inherits_across_namespaces
+      puppet-lint check trailing_whitespace
+      puppet-lint check hard_tabs
+      puppet-lint check quoted_booleans
+      puppet-lint check duplicate_params
+      has valid puppet syntax
+      avoids deprecated puppet features
+      does not use deprecated $::ise_fqdn components
+      uses $::ise_mock_fqdn instead of $::fqdn
+      uses $::ise_mock_fqdn name components
+      uses $::ise_mock_hostname instead of $::hostname
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    vagrant/manifests/td-lss12.pp
+      has newline terminators
+      conforms to puppet style guide
+      puppet-lint check variable_scope
+      puppet-lint check case_without_default
+      puppet-lint check file_mode
+      puppet-lint check unquoted_file_mode
+      puppet-lint check right_to_left_relationship
+      puppet-lint check inherits_across_namespaces
+      puppet-lint check trailing_whitespace
+      puppet-lint check hard_tabs
+      puppet-lint check quoted_booleans
+      puppet-lint check duplicate_params
+      has valid puppet syntax
+      avoids deprecated puppet features
+      does not use deprecated $::ise_fqdn components
+      uses $::ise_mock_fqdn instead of $::fqdn
+      uses $::ise_mock_fqdn name components
+      uses $::ise_mock_hostname instead of $::hostname
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+    vagrant/scripts/hiera_fix.sh
+      has newline terminators
+      does not have trailing whitespace
+      lacks unresolved merge conflicts
+
+.gitmodules
+  submodule "modules/jenkins"
+    should use https
+    should not require user credentials
+  submodule "modules/puppetlabs-firewall"
+    should use https
+    should not require user credentials
+  submodule "modules/dism"
+    should use https
+    should not require user credentials
+  submodule "modules/chocolatey"
+    should use https
+    should not require user credentials
+  submodule "modules/vcsrepo"
+    should use https
+    should not require user credentials
+  submodule "modules/sysctl"
+    should use https
+    should not require user credentials
+  submodule "modules/registry"
+    should use https
+    should not require user credentials
+  submodule "modules/puppetlabs-powershell"
+    should use https
+    should not require user credentials
+  submodule "modules/staging"
+    should use https
+    should not require user credentials
+  submodule "modules/stdlib"
+    should use https
+    should not require user credentials
+  submodule "modules/windns"
+    should use https
+    should not require user credentials
+
+site.pp
+  should have the correct md5sum
+
+hieradata/gts
+  hieradata/gts/5
+    hieradata/gts/5/4.0.93.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/5.1.62.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/3.1.80.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/5.0.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/5.1.10.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/3.1.81.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/present.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/5.0.88.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/5.1.52.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/5.1.50.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/5.0.85.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/4.0.95.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/4.0.70.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/5.1.60.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/5.0.40.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/5.1.51.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/6.0.30.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/5.0.66.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/4.0.130.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/5.1.20.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/5.0.61.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/5.1.61.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/6.0.50.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/5.1.30.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/4.0.90.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/5.0.90.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/5.0.65.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/5.1.0.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/5.0.50.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/5.1.55.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/5.0.80.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/3.1.85.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/4.0.94.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/5.0.87.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/4.0.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/6.0.55.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/3.1.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/4.0.80.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/4.0.117.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/4.0.40.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/4.0.60.uno.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/4.0.50.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/5.1.45.yaml
+      should not have rhel6 versions
+    hieradata/gts/5/5.1.40.yaml
+      should not have rhel6 versions
+  hieradata/gts/6
+    hieradata/gts/6/5.1.62.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/6.0.40.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/5.1.10.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/present.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/5.0.88.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/5.1.52.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/5.1.50.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/6.0.10.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/5.0.85.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/rhel6.3-test.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/5.1.60.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/5.0.40.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/5.1.51.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/6.0.30.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/5.1.20.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/5.0.61.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/5.1.61.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/6.0.50.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/5.1.30.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/5.0.90.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/6.0.20.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/5.0.65.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/5.1.0.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/5.0.50.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/5.1.55.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/5.0.80.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/5.0.87.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/6.0.55.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/5.1.45.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/6.0.0.yaml
+      should not have rhel5 versions
+    hieradata/gts/6/5.1.40.yaml
+      should not have rhel5 versions
+
+Top 10 slowest examples (2.66 seconds, 22.1% of total time):
+  puppet file checks vagrant/manifests/td-lss11.pp avoids deprecated puppet features
+    1.07 seconds ./spec/common/common_spec.rb:277
+  puppet file checks vagrant/manifests/td-lss12.pp avoids deprecated puppet features
+    0.98719 seconds ./spec/common/common_spec.rb:277
+  puppet file checks vagrant/manifests/td-lss12.pp has newline terminators
+    0.09227 seconds ./spec/common/common_spec.rb:113
+  .gitmodules submodule "modules/staging" should use https
+    0.09212 seconds ./spec/files/gitmodules_spec.rb:11
+  puppet file checks vagrant/definitions/ise-win08r2-ss-amd64/README.md does not have trailing whitespace
+    0.08065 seconds ./spec/common/common_spec.rb:192
+  puppet file checks hieradata/gts/6/5.0.40.yaml is well-formed yaml
+    0.06969 seconds ./spec/common/common_spec.rb:232
+  puppet file checks hieradata/common/ise_mock_hostname/pc-mgw155.yaml lacks unresolved merge conflicts
+    0.06913 seconds ./spec/common/common_spec.rb:207
+  puppet should be up-to-date with upstream
+    0.0691 seconds ./spec/common/common_spec.rb:293
+  puppet file checks vagrant/config/provisioner_puppet.yml is well-formed yaml
+    0.06893 seconds ./spec/common/common_spec.rb:232
+  hieradata/gts hieradata/gts/5 hieradata/gts/5/5.0.80.yaml should not have rhel6 versions
+    0.06801 seconds ./spec/hieradata/gts_spec.rb:13
+
+Finished in 12.6 seconds
+2801 examples, 0 failures
+Loaded suite /home/chunkwo/.bundle/ruby/1.8/bin/rspec
+Started
+
+Finished in 0.000119 seconds.
+
+0 tests, 0 assertions, 0 failures, 0 errors
+Aggregate: 2801 examples and 0 failures
+Aggregate wall-clock time: 842 seconds
+36.43user 103.95system 14:30.74elapsed 16%CPU (0avgtext+0avgdata 0maxresident)k
+0inputs+0outputs (0major+870642minor)pagefaults 0swaps
